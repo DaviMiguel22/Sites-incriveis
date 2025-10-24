@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja tenis</title>
+    <link rel="icon" href="icon.png">
+    <style>
+     div {
+            background-color: rgba(234, 217, 29, 0.16);
+            color:chocolate;
+            text-align: center;
+            border: 2px solid rgb(246, 128, 19);
+            border-radius: 10px;
+        }
+    body, html{
+            margin: 0;
+            padding: 0;
+            height: 1500px;
+        }
+    .parallax{
+            height: 600px;
+            background-image: url(ds.png);
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            /* Centraliza o conteudo da pagina*/
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    .texto {
+            background-color: rgb(red, green, blue);
+            color: rgb(246, 128, 19);
+        }
+    img{
+        transition: transform 1s;
+        }
+    .card img:hover{
+        transform: rotateY(360deg);
+        }
+    .card {
+            border: 1px solid darkblue;
+            border-radius: 10px;
+            width: 220px;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+    .card img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    .vermelho{
+            text-align: center;
+            font-family: cursive;
+            background-color: brown;
+            color: red;
+            padding: 10px;
+        }
+    .container {
+        display: flex;
+        justify-content: center; 
+        gap: 20px; 
+        flex-wrap: wrap; 
+}
+    .tag-oferta{
+            position: absolute;
+            background-color: red;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 5px;
+        }
+    .sombra {
+            box-shadow: 2px 2px 8px black;
+        }
+    .oferta {
+            background-color: brown;
+            padding: 20px;
+            transition: 0.4s;
+        }
+    .oferta:hover {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="parallax"></div>
+    <div class="sombra">
+        <h1>Robert Tenis</h1>
+    </div>
+    <br>
+    <div class="texto">
+        <h1>Produtos mais vendidos:</h1>
+    </div>
+    <br>
+    <div class="container">
+        <div class="card">
+            <h1>
+                <img src="tenis4.png" width="100px">
+                Nike Air Zoom Pegasus
+            </h1>
+            <div class="vermelho oferta">
+                <h1>R$ 80,00</h1>
+            </div>
+        </div>
+        <div class="card">
+            <h1>
+                <img src="tenis3.png" width="100px">
+                Adidas Ultraboost
+            </h1>
+            <div class="vermelho oferta">
+                <h1>R$ 80,00</h1>
+            </div>
+        </div>
+        <div class="card">
+            <div class="tag-oferta">
+                <h1><strong>Oferta</strong></h1>
+            </div>
+            <h1>
+                <img src="tenis2.png" width="100px">
+                Asics Gel-Nimbus
+            </h1>
+            <div class="vermelho oferta">
+                <h1>R$ 65,00</h1>
+            </div>
+        </div>
+        <div class="card">
+            <h1>
+                <img src="tenis.png" width="100px">
+                Mizuno Wave Prophecy
+            </h1>
+            <div class="vermelho oferta">
+                <h1>R$ 70,00</h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="texto">
+        <h1>Sobre a empressa</h1>
+        <p>Fundada em 2015, a Pé de Ouro nasceu com o propósito de unir estilo, conforto e performance em um só lugar.
+            Especializada em tênis esportivos e casuais, a loja rapidamente se destacou pela curadoria de marcas renomadas e
+            pelo atendimento personalizado. Com foco em inovação e qualidade, a Pé de Ouro se tornou referência para quem
+            busca o calçado ideal para treinar, correr ou simplesmente viver o dia a dia com mais leveza e atitude.</p>
+    </div>
+<br>
+<div class="texto">
+    <h1>Contate nossa Empressa</h1>
+    <p>
+       <div class="container"> <img src="loja.png" alt=""> </div>
+        <br>
+        <a href="mailto:ti794adsjoao@gmail.com"><strong>Email</strong></a>
+        <br>
+        <a href="tel:55149969999999"><strong>Telefone</strong></a>
+        <br>
+        <a href="https://wa.me/5514996889777"><strong>WhatsApp</strong></a>
+    </p>
+</div>
+</body>
+</html>
